@@ -8,7 +8,7 @@ The tool provides a **map-based interface** where users can select a location an
 
 ---
 
-## 🌍 Problem Statement
+## Problem Statement
 
 In many rural and semi-urban regions, borewell locations are chosen based on guesswork or limited local knowledge. This often results in:
 
@@ -20,20 +20,20 @@ This project uses **Machine Learning** to make groundwater exploration **data-dr
 
 ---
 
-## 🎯 Core Features
+##  Core Features
 
-- 📌 **Map-based location input** (Lat / Lon selected on OpenStreetMap)
-- ✅ **Well Suitability**: Suitable / Not Suitable
-- 📏 **Water-Bearing Zone (WBZ) Depth** prediction (meters)
-- 🚰 **Expected Discharge** prediction (LPM)
-- 🛠️ **Recommended Drilling Method** (e.g., DTH, Rotary, Percussion, Auger)
-- 💧 **Water Quality Category**: Good / Moderate / Poor
-- 📊 Feature importance and model evaluation during training
-- 📝 Feedback logging via `feedback.csv`
+-  **Map-based location input** (Lat / Lon selected on OpenStreetMap)
+-  **Well Suitability**: Suitable / Not Suitable
+-  **Water-Bearing Zone (WBZ) Depth** prediction (meters)
+-  **Expected Discharge** prediction (LPM)
+-  **Recommended Drilling Method** (e.g., DTH, Rotary, Percussion, Auger)
+-  **Water Quality Category**: Good / Moderate / Poor
+-  Feature importance and model evaluation during training
+-  Feedback logging via `feedback.csv`
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language**: Python  
 - **ML Libraries**: Scikit-Learn, XGBoost  
@@ -43,7 +43,7 @@ This project uses **Machine Learning** to make groundwater exploration **data-dr
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 Based on your current folder:
 
@@ -63,7 +63,7 @@ AI-ENABLED WATER WELL PREDICTOR/
 ├── predict.py                  # Standalone prediction script (CLI / batch)
 └── train_models.py             # Model training & saving pipeline
 
-📊 Dataset (High-Level)
+ Dataset (High-Level)
 
 Main training file:
 data/AP_KAR_NAQUIM_style_water_well_dataset_3000.csv
